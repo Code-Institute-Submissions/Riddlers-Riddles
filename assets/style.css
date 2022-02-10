@@ -17,11 +17,6 @@ h1 {
     margin-bottom: 2%;
 }
 
-h2 {
-    font-size: 4.2rem;
-    margin-bottom: 4rem;
-}
-
 /* CODE BASED FROM YOUTUBE TUTORIAL https://www.youtube.com/watch?v=f4fB9Xg2JEY */
 
 .container {
@@ -74,4 +69,105 @@ h2 {
     box-shadow: 0 0.4rem 1.4rem 0 rgb(255, 0, 221);
     transition: transform 150ms;
     transform: scale(1.03);
+}
+/* QUIZ PAGE */
+
+header {
+    font-family: 'Rock 3D', cursive;
+    font-size: 200%;
+    color: rgb(255, 0, 221);
+    margin-bottom: 2%;
+    text-align: center;
+    text-decoration: none;
+}
+
+#start-button {
+    font-family: 'Barrio', cursive;
+    font-size: 170%;
+    font-weight: 500;
+    height: 30%;
+    width: 40%;
+    background-color: rgb(230, 230, 230);
+    border: 0.5px solid gray;
+    border-radius: 10px 10px;
+    display: block;
+    padding-top: 2%;
+    margin: 0 auto;
+}
+
+#start-button:hover {
+    background-color:rgb(240, 240, 240);   
+}
+
+#question-box {
+    height: 200px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    background-color: black;
+}
+
+#question-h2 {
+    font-family: Kanit, sans-serif;
+    font-weight: 300;
+    font-size: 200%;
+}
+
+#answer-box {
+    height: 200px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: black;
+}
+
+.answer-button {
+    font-family: 'Barrio', cursive;
+    font-size: 125%;
+    font-weight: 400;
+    height: 30%;
+    width: 40%;
+    margin: 1%;
+    text-decoration: none;
+    color:rgb(28, 26, 26); 
+    background: linear-gradient(90deg, rgb(11, 122, 11)0%, rgb(33, 224, 8) 100%);
+    border-radius: 4px;
+}
+
+button:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgb(255, 0, 221);
+    transition: transform 150ms;
+    transform: scale(1.03);
+}
+
+.nav {
+    align-items: right;
+}
+
+#quiz-navigation {
+    font-family: 'Barrio', cursive;
+    text-align: right;
+    margin-right: 2%;
+    margin-top: 2%;
+    text-align: right;
+    font-size: 200%;
+    color: rgb(255, 0, 221);
+}
+
+#quiz-navigation button {
+    border: 0.5px solid rgb(77, 0, 32);
+    border-radius: 10px 10px;
+    
+}
+
+#quiz-navigation button {
+    border: 5% rgb(255, 0, 221);
+    border-radius: 10% 10%;
+    background: linear-gradient(90deg, rgb(11, 122, 11)0%, rgb(33, 224, 8) 100%);
+    color: black;
+    font-family: 'Barrio';
 }
