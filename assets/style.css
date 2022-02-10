@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Barrio&family=Libre+Barcode+39+Text&family=Rock+3D&family=Shizuru&display=swap');
+
+
+/* FRONT PAGE */
+
+body {
+    background: url(../assets/images/background.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
+h1 {
+    font-family: 'Rock 3D', cursive;
+    font-size: 300%;
+    color: rgb(255, 0, 221);
+    margin-bottom: 2%;
+}
+
+h2 {
+    font-size: 4.2rem;
+    margin-bottom: 4rem;
+}
+
+/* CODE BASED FROM YOUTUBE TUTORIAL https://www.youtube.com/watch?v=f4fB9Xg2JEY */
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    margin: 0 auto; 
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-center {
+    justify-content: center;
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
+
+.btn {
+    font-family: 'Barrio', cursive;
+    font-size: 300%;
+    padding: 2% 0;
+    text-align: center;
+    width: 50%;
+    margin-bottom: 5%;
+    text-decoration: none;
+    color:rgb(28, 26, 26); 
+    background: linear-gradient(90deg, rgb(11, 122, 11)0%, rgb(33, 224, 8) 100%);
+    border-radius: 4px;
+}
+
+.btn:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgb(255, 0, 221);
+    transition: transform 150ms;
+    transform: scale(1.03);
+}
