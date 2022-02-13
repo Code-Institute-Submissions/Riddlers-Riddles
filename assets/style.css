@@ -107,11 +107,12 @@ header {
     align-items: center;
     text-align: center;
     margin: 0 auto;
-    background-color: black;
+    color: rgb(255, 0, 221);
+    font-family: 'Barrio', cursive;
 }
 
 #question-h2 {
-    font-family: Kanit, sans-serif;
+    font-family: 'Barrio', cursive;
     font-weight: 300;
     font-size: 200%;
 }
@@ -121,7 +122,6 @@ header {
     width: 100%;
     margin: 0 auto;
     text-align: center;
-    background-color: black;
 }
 
 .answer-button {
