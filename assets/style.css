@@ -72,31 +72,15 @@ h1 {
 }
 /* QUIZ PAGE */
 
-header {
+#riddle-h1 {
     font-family: 'Rock 3D', cursive;
     font-size: 200%;
     color: rgb(255, 0, 221);
     margin-bottom: 2%;
     text-align: center;
     text-decoration: none;
-}
-
-#start-button {
-    font-family: 'Barrio', cursive;
-    font-size: 170%;
-    font-weight: 500;
-    height: 30%;
-    width: 40%;
-    background-color: rgb(230, 230, 230);
-    border: 0.5px solid gray;
-    border-radius: 10px 10px;
+    align-items: center;
     display: block;
-    padding-top: 2%;
-    margin: 0 auto;
-}
-
-#start-button:hover {
-    background-color:rgb(240, 240, 240);   
 }
 
 #question-box {
@@ -144,16 +128,11 @@ button:hover {
     transform: scale(1.03);
 }
 
-.nav {
-    align-items: right;
-}
-
 #quiz-navigation {
     font-family: 'Barrio', cursive;
-    text-align: right;
+    text-align: center;
     margin-right: 2%;
     margin-top: 2%;
-    text-align: right;
     font-size: 200%;
     color: rgb(255, 0, 221);
 }
@@ -165,7 +144,7 @@ button:hover {
 }
 
 #quiz-navigation button {
-    border: 5% rgb(255, 0, 221);
+    border: 5px rgb(255, 0, 221);
     border-radius: 10% 10%;
     background: linear-gradient(90deg, rgb(11, 122, 11)0%, rgb(33, 224, 8) 100%);
     color: black;

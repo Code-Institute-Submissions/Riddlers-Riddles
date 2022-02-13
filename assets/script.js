@@ -99,7 +99,7 @@ let currentQuestion = 0;
 scoreTracker.innerHTML = 'Score: ' + correct + '/' + totalQuestions;
 
 //DISPLAYS GREEN FOR CORRECT AND RED FOR INCORREXT ANSWERS
-function revealAnswer(event) {
+function revealAnswer() {
         if (this.innerHTML === questions[q].correctAnswer && currentQuestion == (totalQuestions - 1)){
             correct++;
             currentQuestion++;
@@ -153,7 +153,7 @@ function nextQuestion(){
         answerButton[1].innerHTML = questions[a].answers.B;
         answerButton[2].innerHTML = questions[a].answers.C;
         answerButton[3].innerHTML = questions[a].answers.D;
-        quizBox.style.backgroundColor = 'white';
+        quizBox.style.backgroundColor = 'transparent';
     }
     else {
         alert('Please select your answer to continue');

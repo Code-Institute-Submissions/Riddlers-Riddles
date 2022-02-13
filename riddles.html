@@ -11,13 +11,13 @@
 <body>
     <!--HEADER-->
     <header> 
-        <h1 class="riddle-h1"><a href="index.html">Riddle Me This</a></h1>
+        <h1><a href="index.html" id="riddle-h1">Riddle Me This!</a></h1>
     </header>
 <!--QUIZ-->
     <section>
-        <div id="quiz-box">
+        <div id="quiz-box" style="background-color: transparent;">
             <div id="question-box">
-                <h2 id="question-h2"></h2>
+                <h2 id="question-h2">Riddles in here</h2>
             </div>
 <!--MULTIPLE CHOICE ANSWERS-->
             <div id="answer-box"> 
@@ -26,6 +26,7 @@
                 <button class="answer-button">Answer 3</button>
                 <button class="answer-button">Answer 4</button>
             </div>
+        </div>   
     </section>
 <!--SCORE TRACKER AND NAVIGATION-->
 <section id="navigation">         
@@ -34,7 +35,6 @@
                 <button id="next-button">NEXT RIDDLE</button>
                 <p id="score">SCORE:</p>
             </div>
-        </div>
 </section>       
 
 <script src="assets/script.js"></script>    
