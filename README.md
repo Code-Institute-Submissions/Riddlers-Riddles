@@ -57,13 +57,21 @@ The Riddler's Riddles is a Batman themed quiz to challange the user with some cl
 
   ### Validator Testing
 - HTML
-    - No errors were found when passing through the official [W3C Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2F8000-amjweb-riddlersriddles-4rgoof1i0r5.ws-eu31.gitpod.io%2Friddles.html)
+    - No errors were found when passing through the official. Though a [warning](assets/images/media/warning.png) was. After some resarch on [stackoverflow](https://stackoverflow.com/questions/24155024/w3c-html-validation-error-section-lacks-heading-consider-using-h2-h6-elements)I have decided to ignore it 
+    [W3C Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Famj-web.github.io%2FRiddlers-Riddles%2Friddles.html)
 
-- CSS
-    - No errors were found when passing through the official [(Jigsaw) Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2F8000-amjweb-riddlersriddles-4rgoof1i0r5.ws-eu31.gitpod.io%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+- CSS <p>
+    <a href="https://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="https://jigsaw.w3.org/css-validator/images/vcss-blue"
+            alt="Valid CSS!" />
+    </a>
+</p>
+    - No errors were found when passing through the official [(Jigsaw) Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Famj-web.github.io%2FRiddlers-Riddles%2Friddles.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
 - JavaScript
-    - No errors were found when passing through the [JSHint Validator](https://jshint.com/)
+    - No errors were found when passing through the [JSHint Validator](https://jshint.com/) 
+    - There are thirteen [warnings](assets/images/media/wa4rningjs.png) I have researched this an decided to ignore them also [stackoverflow](https://stackoverflow.com/questions/27441803/why-does-jshint-throw-a-warning-if-i-am-using-const)
 
   ### Unfixed Bugs
 No unfixed bugs
