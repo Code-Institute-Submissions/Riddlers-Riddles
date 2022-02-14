@@ -2,7 +2,7 @@
 
 The Riddler's Riddles is a Batman themed quiz to challange the user with some classic riddles.  
 
-![Responsice Mockup](../Riddlers-Riddles/assets/images/media/responsive-mock-up.png)
+![Responsice Mockup](assets/images/media/responsive-mock-up.png)
 
 ## **Features**
 
