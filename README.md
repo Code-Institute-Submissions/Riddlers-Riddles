@@ -4,6 +4,30 @@ The Riddler's Riddles is a Batman themed quiz to challange the user with some cl
 
 ![Responsice Mockup](assets/images/media/responsive-mock-up.png)
 
+## User Experience (UX)
+
+-   ### User stories
+
+    -   #### First Time Visitor Goals
+
+        1. As a First Time Visitor, I want to easily understand the main purpose of the site. 
+        2. As a First Time Visitor, I want to be able to easily navigate throughout the site. 
+        3. As a First Time Visitor, I want to be able to navigate through the quiz easily. 
+
+-   ### Design
+    -   #### Colour Scheme
+        -   The three main colors used are green, black and pink for a easy to read contrast. 
+    -   #### Typography
+        -   Rock 3D and Barrio and the main fonts used in attempt to give the site a chaotic, comic book villian feel. 
+
+## Technologies Used
+
+### Languages Used
+
+-   [HTML5](https://en.wikipedia.org/wiki/HTML5)
+-   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+-   [Javascript](https://en.wikipedia.org/wiki/JavaScript) 
+
 ## **Features**
 
 - **Front Page** 
