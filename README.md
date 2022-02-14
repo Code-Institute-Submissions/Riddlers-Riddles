@@ -8,28 +8,27 @@ The Riddler's Riddles is a Batman themed quiz to challange the user with some cl
 
 - **Front Page** 
   - The first thing that the user sees is a Riddler themed background with a welcome message/
-  challenge, along with a let's begin button to start the quiz. 
+  challenge, along with a let's play button to start the quiz. 
 
   ![Front Page](assets/images/media/front-page.png)
 
   - **Quiz Page**
-  - The quiz page is comprised of a total of 8 questions, with 4 options to chose from for every question. The users total score is displayed at the bottom right of the box.
+  - The quiz has eight questions with four multiple choice answers to chose from. 
 ![Quiz Page](assets/images/media/quiz-page.png)
 
-  - A correct answer will trigger a message along with a green background.
+  - A correct answer displays a green background and message.
 ![Correct Answer](assets/images/media/correct.png)
 
-  - An incorrect answer will trigger a message along with a red background. It will also display the correct answer.
+  - An incorrect answer displays a red background and the correct answer.
 ![Incorrect Answer](assets/images/media/wrong.png)
 
 - **Navigation**
-  - The navigation consists of 2 simple buttons at the bottom right of the box and a header at the top of the page.
+  - For navigation the header will take the user back to the front page.
 
-  - Clicking the header will take the user back to the front page.
+  - The "Next Riddle" button will take the user to the next riddle but only after they have selected an answer. An alert will be displayed if they try to move on without doing so. 
 
-  - The button named 'Restart' will reload the page and let the user start over.
+  - The button named 'Restart' will allow the user to start again.
 
-  - The button named 'Next Question' will take the user to the next question after choosing an answer. If they did not choose one, an alert will pop up, telling them to do so.
   ![Alert](assets/images/media/media-display.png)
 
   ### Validator Testing
